@@ -1,0 +1,6 @@
+framework module Pods_IslamicTimeManagementTests {
+  umbrella header "Pods-IslamicTimeManagementTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

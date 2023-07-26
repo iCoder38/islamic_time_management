@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_IslamicTimeManagement_IslamicTimeManagementUITests : NSObject
+@end
+@implementation PodsDummy_Pods_IslamicTimeManagement_IslamicTimeManagementUITests
+@end

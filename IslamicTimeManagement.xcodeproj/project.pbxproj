@@ -1,0 +1,1222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1811BB66262077C200F68530 /* LibraryDetailPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811BB65262077C200F68530 /* LibraryDetailPageVC.swift */; };
+		1811BB6E26207DA000F68530 /* PDFReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811BB6D26207DA000F68530 /* PDFReaderVC.swift */; };
+		182754F6260A379E001225EF /* 1212.png in Resources */ = {isa = PBXBuildFile; fileRef = 182754F5260A379D001225EF /* 1212.png */; };
+		18392F3A25F78B7B006E69B8 /* EvaluateYourself.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18392F3925F78B7B006E69B8 /* EvaluateYourself.swift */; };
+		18392F3F25F78BCB006E69B8 /* EvaluateYourselfTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18392F3E25F78BCB006E69B8 /* EvaluateYourselfTableCell.swift */; };
+		18392F4525F7A679006E69B8 /* EvaluateSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18392F4425F7A679006E69B8 /* EvaluateSuccess.swift */; };
+		18392F5125F7AA7A006E69B8 /* SelectQuizLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18392F5025F7AA7A006E69B8 /* SelectQuizLevel.swift */; };
+		18392F5C25F7AA9B006E69B8 /* SelectQuizTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18392F5B25F7AA9B006E69B8 /* SelectQuizTableCell.swift */; };
+		184923BD260268900028A7CF /* QuizQuestionAnswerVerticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184923BB260268900028A7CF /* QuizQuestionAnswerVerticallyVC.swift */; };
+		18504BDC2632B81900E9319A /* leftx.png in Resources */ = {isa = PBXBuildFile; fileRef = 18504BDA2632B81900E9319A /* leftx.png */; };
+		18504BDD2632B81900E9319A /* rightx.png in Resources */ = {isa = PBXBuildFile; fileRef = 18504BDB2632B81900E9319A /* rightx.png */; };
+		1857B4A9262EB38500FC546D /* backF.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857B4A8262EB38500FC546D /* backF.png */; };
+		1857B4D4262EB67F00FC546D /* user12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857B4D3262EB67F00FC546D /* user12.png */; };
+		1857B5B72631C22E00FC546D /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857B5B62631C22D00FC546D /* calendar.png */; };
+		18594AF52605EB3F00A6EAEB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18594AF22605EB3E00A6EAEB /* UIColor+Extension.swift */; };
+		18594AF62605EB3F00A6EAEB /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18594AF32605EB3E00A6EAEB /* PieChartDataSet.swift */; };
+		18594AF72605EB3F00A6EAEB /* LambdaPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18594AF42605EB3E00A6EAEB /* LambdaPieChart.swift */; };
+		18594C4C26060B8100A6EAEB /* AddGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18594C4B26060B8000A6EAEB /* AddGoalVC.swift */; };
+		1874BCA52609C37B00F95990 /* BasicBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BC9C2609C37B00F95990 /* BasicBarChartPresenter.swift */; };
+		1874BCA62609C37B00F95990 /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BC9D2609C37B00F95990 /* BasicBarChart.swift */; };
+		1874BCA72609C37B00F95990 /* BasicBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BC9E2609C37B00F95990 /* BasicBarEntry.swift */; };
+		1874BCA82609C37B00F95990 /* CustomSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BCA02609C37B00F95990 /* CustomSegments.swift */; };
+		1874BCA92609C37B00F95990 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BCA12609C37B00F95990 /* CALayerExtension.swift */; };
+		1874BCAA2609C37B00F95990 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BCA22609C37B00F95990 /* UIBezierPathExtension.swift */; };
+		1874BCAB2609C37B00F95990 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BCA32609C37B00F95990 /* ArrayExtension.swift */; };
+		1874BCAC2609C37B00F95990 /* DataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BCA42609C37B00F95990 /* DataEntry.swift */; };
+		1874BCB32609C43F00F95990 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1874BCB02609C43E00F95990 /* 3.png */; };
+		1874BCB42609C43F00F95990 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1874BCB12609C43E00F95990 /* 1.png */; };
+		1874BCB52609C43F00F95990 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1874BCB22609C43E00F95990 /* 2.png */; };
+		1874BCBE2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BCBD2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC.swift */; };
+		187DFA6C26010CCC009A9FA1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DFA6B26010CCC009A9FA1 /* Profile.swift */; };
+		187DFA7526012153009A9FA1 /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DFA7426012152009A9FA1 /* LibraryVC.swift */; };
+		18852E3B26380A660045373B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18852E3A26380A660045373B /* StoreKit.framework */; };
+		1894AFDE26328952004ED2D1 /* ESLotteryWinViewControllerRetailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894AFDD26328952004ED2D1 /* ESLotteryWinViewControllerRetailer.swift */; };
+		18A5B45725FE5ECE004C3B56 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5B45625FE5ECE004C3B56 /* HelpVC.swift */; };
+		18A5B47A25FE6877004C3B56 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5B47925FE6876004C3B56 /* ForgotPasswordController.swift */; };
+		18A5B50B25FF0E19004C3B56 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5B50A25FF0E18004C3B56 /* ChangePasswordController.swift */; };
+		18A5B51025FF11AD004C3B56 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5B50F25FF11AD004C3B56 /* CheckInternet.swift */; };
+		18A5B76A25FFC4CF004C3B56 /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5B76925FFC4CF004C3B56 /* PaymentsViewController.swift */; };
+		18A6F34B25F74EC9006CE431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F34A25F74EC9006CE431 /* AppDelegate.swift */; };
+		18A6F34D25F74EC9006CE431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F34C25F74EC9006CE431 /* SceneDelegate.swift */; };
+		18A6F34F25F74EC9006CE431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F34E25F74EC9006CE431 /* ViewController.swift */; };
+		18A6F35225F74EC9006CE431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A6F35025F74EC9006CE431 /* Main.storyboard */; };
+		18A6F35425F74ECC006CE431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A6F35325F74ECC006CE431 /* Assets.xcassets */; };
+		18A6F35725F74ECC006CE431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A6F35525F74ECC006CE431 /* LaunchScreen.storyboard */; };
+		18A6F36225F74ECC006CE431 /* IslamicTimeManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F36125F74ECC006CE431 /* IslamicTimeManagementTests.swift */; };
+		18A6F36D25F74ECC006CE431 /* IslamicTimeManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F36C25F74ECC006CE431 /* IslamicTimeManagementUITests.swift */; };
+		18A6F38B25F74F87006CE431 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F38725F74F87006CE431 /* SWRevealViewController.m */; };
+		18A6F38C25F74F87006CE431 /* MenuControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F38825F74F87006CE431 /* MenuControllerVC.swift */; };
+		18A6F38D25F74F87006CE431 /* MenuControllerVCTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F38A25F74F87006CE431 /* MenuControllerVCTableCell.swift */; };
+		18A6F3BD25F751C0006CE431 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F3BC25F751C0006CE431 /* Login.swift */; };
+		18A6F3C325F752BC006CE431 /* GetStartedNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F3C225F752BC006CE431 /* GetStartedNow.swift */; };
+		18A6F3CB25F75323006CE431 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F3CA25F75323006CE431 /* Utils.swift */; };
+		18A6F3D425F756B2006CE431 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F3D325F756B2006CE431 /* Register.swift */; };
+		18A6F3EB25F758AE006CE431 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F3EA25F758AE006CE431 /* Dashboard.swift */; };
+		18A6F3F125F76118006CE431 /* SetYourGoalsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F3F025F76118006CE431 /* SetYourGoalsList.swift */; };
+		18A6F8C72601F13E00D27590 /* QuizResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6F8C62601F13E00D27590 /* QuizResultVC.swift */; };
+		18CC93BF262EBE380054DF26 /* TermsConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC93BE262EBE380054DF26 /* TermsConditionVC.swift */; };
+		475306FB89F4925BE29A19AD /* Pods_IslamicTimeManagement_IslamicTimeManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3C05D74E099994DFFD2A3D /* Pods_IslamicTimeManagement_IslamicTimeManagementUITests.framework */; };
+		AAD77227116E4BBAD5B99570 /* Pods_IslamicTimeManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772D2543EB23908163F6715 /* Pods_IslamicTimeManagement.framework */; };
+		B9A02ABD29EFB47600308168 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9A02ABC29EFB47600308168 /* GoogleService-Info.plist */; };
+		C75F2B1A577BD8C3E77C984F /* Pods_IslamicTimeManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A16F0F7AA485D58788D4075 /* Pods_IslamicTimeManagementTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A6F35E25F74ECC006CE431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A6F33F25F74EC9006CE431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A6F34625F74EC9006CE431;
+			remoteInfo = IslamicTimeManagement;
+		};
+		18A6F36925F74ECC006CE431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A6F33F25F74EC9006CE431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A6F34625F74EC9006CE431;
+			remoteInfo = IslamicTimeManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0772D2543EB23908163F6715 /* Pods_IslamicTimeManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslamicTimeManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C547469AADC0A5E7EC3EED /* Pods-IslamicTimeManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamicTimeManagementTests.release.xcconfig"; path = "Target Support Files/Pods-IslamicTimeManagementTests/Pods-IslamicTimeManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		1811BB65262077C200F68530 /* LibraryDetailPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryDetailPageVC.swift; sourceTree = "<group>"; };
+		1811BB6D26207DA000F68530 /* PDFReaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFReaderVC.swift; sourceTree = "<group>"; };
+		182754F5260A379D001225EF /* 1212.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1212.png; sourceTree = "<group>"; };
+		18392F3925F78B7B006E69B8 /* EvaluateYourself.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateYourself.swift; sourceTree = "<group>"; };
+		18392F3E25F78BCB006E69B8 /* EvaluateYourselfTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateYourselfTableCell.swift; sourceTree = "<group>"; };
+		18392F4425F7A679006E69B8 /* EvaluateSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateSuccess.swift; sourceTree = "<group>"; };
+		18392F5025F7AA7A006E69B8 /* SelectQuizLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuizLevel.swift; sourceTree = "<group>"; };
+		18392F5B25F7AA9B006E69B8 /* SelectQuizTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuizTableCell.swift; sourceTree = "<group>"; };
+		184923BB260268900028A7CF /* QuizQuestionAnswerVerticallyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizQuestionAnswerVerticallyVC.swift; sourceTree = "<group>"; };
+		18504BDA2632B81900E9319A /* leftx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftx.png; sourceTree = "<group>"; };
+		18504BDB2632B81900E9319A /* rightx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightx.png; sourceTree = "<group>"; };
+		1857B4A8262EB38500FC546D /* backF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backF.png; sourceTree = "<group>"; };
+		1857B4D3262EB67F00FC546D /* user12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user12.png; sourceTree = "<group>"; };
+		1857B5B62631C22D00FC546D /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		18594AF22605EB3E00A6EAEB /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		18594AF32605EB3E00A6EAEB /* PieChartDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartDataSet.swift; sourceTree = "<group>"; };
+		18594AF42605EB3E00A6EAEB /* LambdaPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LambdaPieChart.swift; sourceTree = "<group>"; };
+		18594C4B26060B8000A6EAEB /* AddGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGoalVC.swift; sourceTree = "<group>"; };
+		1874BC9C2609C37B00F95990 /* BasicBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChartPresenter.swift; sourceTree = "<group>"; };
+		1874BC9D2609C37B00F95990 /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		1874BC9E2609C37B00F95990 /* BasicBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarEntry.swift; sourceTree = "<group>"; };
+		1874BCA02609C37B00F95990 /* CustomSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegments.swift; sourceTree = "<group>"; };
+		1874BCA12609C37B00F95990 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		1874BCA22609C37B00F95990 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		1874BCA32609C37B00F95990 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		1874BCA42609C37B00F95990 /* DataEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntry.swift; sourceTree = "<group>"; };
+		1874BCB02609C43E00F95990 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		1874BCB12609C43E00F95990 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1874BCB22609C43E00F95990 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		1874BCBD2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluateSuccessMonthlyWiseVC.swift; sourceTree = "<group>"; };
+		187DFA6B26010CCC009A9FA1 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		187DFA7426012152009A9FA1 /* LibraryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
+		18852E3A26380A660045373B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1894AFDD26328952004ED2D1 /* ESLotteryWinViewControllerRetailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLotteryWinViewControllerRetailer.swift; sourceTree = "<group>"; };
+		18A5B45625FE5ECE004C3B56 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		18A5B47925FE6876004C3B56 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		18A5B50A25FF0E18004C3B56 /* ChangePasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
+		18A5B50F25FF11AD004C3B56 /* CheckInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		18A5B76925FFC4CF004C3B56 /* PaymentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		18A6F34725F74EC9006CE431 /* IslamicTimeManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamicTimeManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A6F34A25F74EC9006CE431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A6F34C25F74EC9006CE431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18A6F34E25F74EC9006CE431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A6F35125F74EC9006CE431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A6F35325F74ECC006CE431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A6F35625F74ECC006CE431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A6F35825F74ECC006CE431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A6F35D25F74ECC006CE431 /* IslamicTimeManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamicTimeManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A6F36125F74ECC006CE431 /* IslamicTimeManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicTimeManagementTests.swift; sourceTree = "<group>"; };
+		18A6F36325F74ECC006CE431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A6F36825F74ECC006CE431 /* IslamicTimeManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamicTimeManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A6F36C25F74ECC006CE431 /* IslamicTimeManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicTimeManagementUITests.swift; sourceTree = "<group>"; };
+		18A6F36E25F74ECC006CE431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A6F38525F74F86006CE431 /* IslamicTimeManagement-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IslamicTimeManagement-Bridging-Header.h"; sourceTree = "<group>"; };
+		18A6F38625F74F87006CE431 /* SidebarMenu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		18A6F38725F74F87006CE431 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		18A6F38825F74F87006CE431 /* MenuControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuControllerVC.swift; sourceTree = "<group>"; };
+		18A6F38925F74F87006CE431 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		18A6F38A25F74F87006CE431 /* MenuControllerVCTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuControllerVCTableCell.swift; sourceTree = "<group>"; };
+		18A6F3BC25F751C0006CE431 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		18A6F3C225F752BC006CE431 /* GetStartedNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedNow.swift; sourceTree = "<group>"; };
+		18A6F3CA25F75323006CE431 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		18A6F3D325F756B2006CE431 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		18A6F3EA25F758AE006CE431 /* Dashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		18A6F3F025F76118006CE431 /* SetYourGoalsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetYourGoalsList.swift; sourceTree = "<group>"; };
+		18A6F8C62601F13E00D27590 /* QuizResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultVC.swift; sourceTree = "<group>"; };
+		18CC93BE262EBE380054DF26 /* TermsConditionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsConditionVC.swift; sourceTree = "<group>"; };
+		18ED786626332FFF00ECB0EA /* IslamicTimeManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IslamicTimeManagement.entitlements; sourceTree = "<group>"; };
+		4D24405D87497230D31A847C /* Pods-IslamicTimeManagement-IslamicTimeManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamicTimeManagement-IslamicTimeManagementUITests.debug.xcconfig"; path = "Target Support Files/Pods-IslamicTimeManagement-IslamicTimeManagementUITests/Pods-IslamicTimeManagement-IslamicTimeManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C91DA5943CE834BBAA20F0F /* Pods-IslamicTimeManagement-IslamicTimeManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamicTimeManagement-IslamicTimeManagementUITests.release.xcconfig"; path = "Target Support Files/Pods-IslamicTimeManagement-IslamicTimeManagementUITests/Pods-IslamicTimeManagement-IslamicTimeManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		837F595AF98E39221B6C3CD9 /* Pods-IslamicTimeManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamicTimeManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-IslamicTimeManagementTests/Pods-IslamicTimeManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3C05D74E099994DFFD2A3D /* Pods_IslamicTimeManagement_IslamicTimeManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslamicTimeManagement_IslamicTimeManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A16F0F7AA485D58788D4075 /* Pods_IslamicTimeManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslamicTimeManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A02ABC29EFB47600308168 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C747A3A5839BCB5361188DF2 /* Pods-IslamicTimeManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamicTimeManagement.release.xcconfig"; path = "Target Support Files/Pods-IslamicTimeManagement/Pods-IslamicTimeManagement.release.xcconfig"; sourceTree = "<group>"; };
+		D2FC0CC01BEEE30882FC62F0 /* Pods-IslamicTimeManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamicTimeManagement.debug.xcconfig"; path = "Target Support Files/Pods-IslamicTimeManagement/Pods-IslamicTimeManagement.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A6F34425F74EC9006CE431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD77227116E4BBAD5B99570 /* Pods_IslamicTimeManagement.framework in Frameworks */,
+				18852E3B26380A660045373B /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6F35A25F74ECC006CE431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75F2B1A577BD8C3E77C984F /* Pods_IslamicTimeManagementTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6F36525F74ECC006CE431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475306FB89F4925BE29A19AD /* Pods_IslamicTimeManagement_IslamicTimeManagementUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1811BB64262077C200F68530 /* LibraryDetailPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				1811BB65262077C200F68530 /* LibraryDetailPageVC.swift */,
+			);
+			path = LibraryDetailPageVC;
+			sourceTree = "<group>";
+		};
+		1811BB6C26207DA000F68530 /* PDFReaderVC */ = {
+			isa = PBXGroup;
+			children = (
+				1811BB6D26207DA000F68530 /* PDFReaderVC.swift */,
+			);
+			path = PDFReaderVC;
+			sourceTree = "<group>";
+		};
+		18392F3225F78B58006E69B8 /* EvaluateYourself */ = {
+			isa = PBXGroup;
+			children = (
+				18392F3925F78B7B006E69B8 /* EvaluateYourself.swift */,
+				18392F3E25F78BCB006E69B8 /* EvaluateYourselfTableCell.swift */,
+			);
+			path = EvaluateYourself;
+			sourceTree = "<group>";
+		};
+		18392F4325F7A669006E69B8 /* EvaluateSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				18392F4425F7A679006E69B8 /* EvaluateSuccess.swift */,
+			);
+			path = EvaluateSuccess;
+			sourceTree = "<group>";
+		};
+		18392F4F25F7AA68006E69B8 /* SelectQuizLevel */ = {
+			isa = PBXGroup;
+			children = (
+				18392F5025F7AA7A006E69B8 /* SelectQuizLevel.swift */,
+				18392F5B25F7AA9B006E69B8 /* SelectQuizTableCell.swift */,
+			);
+			path = SelectQuizLevel;
+			sourceTree = "<group>";
+		};
+		184923B9260268900028A7CF /* Quiz's */ = {
+			isa = PBXGroup;
+			children = (
+				184923BB260268900028A7CF /* QuizQuestionAnswerVerticallyVC.swift */,
+			);
+			path = "Quiz's";
+			sourceTree = "<group>";
+		};
+		18594AF12605EB3E00A6EAEB /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				18594AF22605EB3E00A6EAEB /* UIColor+Extension.swift */,
+				18594AF32605EB3E00A6EAEB /* PieChartDataSet.swift */,
+				18594AF42605EB3E00A6EAEB /* LambdaPieChart.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		1874BC9A2609C37B00F95990 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				1874BC9B2609C37B00F95990 /* BasicBarChart */,
+				1874BC9F2609C37B00F95990 /* Shared */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		1874BC9B2609C37B00F95990 /* BasicBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				1874BC9C2609C37B00F95990 /* BasicBarChartPresenter.swift */,
+				1874BC9D2609C37B00F95990 /* BasicBarChart.swift */,
+				1874BC9E2609C37B00F95990 /* BasicBarEntry.swift */,
+			);
+			path = BasicBarChart;
+			sourceTree = "<group>";
+		};
+		1874BC9F2609C37B00F95990 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1874BCA02609C37B00F95990 /* CustomSegments.swift */,
+				1874BCA12609C37B00F95990 /* CALayerExtension.swift */,
+				1874BCA22609C37B00F95990 /* UIBezierPathExtension.swift */,
+				1874BCA32609C37B00F95990 /* ArrayExtension.swift */,
+				1874BCA42609C37B00F95990 /* DataEntry.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1874BCBC2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC */ = {
+			isa = PBXGroup;
+			children = (
+				1874BCBD2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC.swift */,
+			);
+			path = EvaluateSuccessMonthlyWiseVC;
+			sourceTree = "<group>";
+		};
+		187DFA6A26010CCC009A9FA1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				187DFA6B26010CCC009A9FA1 /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		187DFA7326012152009A9FA1 /* LibraryVC */ = {
+			isa = PBXGroup;
+			children = (
+				187DFA7426012152009A9FA1 /* LibraryVC.swift */,
+			);
+			path = LibraryVC;
+			sourceTree = "<group>";
+		};
+		18A5B45525FE5ECE004C3B56 /* HelpVC */ = {
+			isa = PBXGroup;
+			children = (
+				18A5B45625FE5ECE004C3B56 /* HelpVC.swift */,
+			);
+			name = HelpVC;
+			path = IslamicTimeManagement/Controller/HelpVC;
+			sourceTree = SOURCE_ROOT;
+		};
+		18A5B47825FE6876004C3B56 /* ForgotPasswordController */ = {
+			isa = PBXGroup;
+			children = (
+				18A5B47925FE6876004C3B56 /* ForgotPasswordController.swift */,
+			);
+			path = ForgotPasswordController;
+			sourceTree = "<group>";
+		};
+		18A5B50925FF0E18004C3B56 /* ChangePasswordController */ = {
+			isa = PBXGroup;
+			children = (
+				18A5B50A25FF0E18004C3B56 /* ChangePasswordController.swift */,
+			);
+			path = ChangePasswordController;
+			sourceTree = "<group>";
+		};
+		18A5B76825FFC4CF004C3B56 /* PaymentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18A5B76925FFC4CF004C3B56 /* PaymentsViewController.swift */,
+			);
+			path = PaymentsViewController;
+			sourceTree = "<group>";
+		};
+		18A6F33E25F74EC9006CE431 = {
+			isa = PBXGroup;
+			children = (
+				18A6F34925F74EC9006CE431 /* IslamicTimeManagement */,
+				18A6F36025F74ECC006CE431 /* IslamicTimeManagementTests */,
+				18A6F36B25F74ECC006CE431 /* IslamicTimeManagementUITests */,
+				18A6F34825F74EC9006CE431 /* Products */,
+				7A87946A471AE53E1408FC3B /* Pods */,
+				C7EE9C5E374CE4187322242C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18A6F34825F74EC9006CE431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F34725F74EC9006CE431 /* IslamicTimeManagement.app */,
+				18A6F35D25F74ECC006CE431 /* IslamicTimeManagementTests.xctest */,
+				18A6F36825F74ECC006CE431 /* IslamicTimeManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A6F34925F74EC9006CE431 /* IslamicTimeManagement */ = {
+			isa = PBXGroup;
+			children = (
+				18ED786626332FFF00ECB0EA /* IslamicTimeManagement.entitlements */,
+				18A6F38325F74F6F006CE431 /* Headers */,
+				18A6F38425F74F75006CE431 /* ThirdParty */,
+				18A6F3B425F75199006CE431 /* Controller */,
+				18A6F34A25F74EC9006CE431 /* AppDelegate.swift */,
+				18CC93BE262EBE380054DF26 /* TermsConditionVC.swift */,
+				18A6F34C25F74EC9006CE431 /* SceneDelegate.swift */,
+				1894AFDD26328952004ED2D1 /* ESLotteryWinViewControllerRetailer.swift */,
+				18504BDA2632B81900E9319A /* leftx.png */,
+				18504BDB2632B81900E9319A /* rightx.png */,
+				182754F5260A379D001225EF /* 1212.png */,
+				1857B4A8262EB38500FC546D /* backF.png */,
+				1857B4D3262EB67F00FC546D /* user12.png */,
+				1857B5B62631C22D00FC546D /* calendar.png */,
+				18A6F34E25F74EC9006CE431 /* ViewController.swift */,
+				18A6F35025F74EC9006CE431 /* Main.storyboard */,
+				18A6F35325F74ECC006CE431 /* Assets.xcassets */,
+				18A6F35525F74ECC006CE431 /* LaunchScreen.storyboard */,
+				18A6F35825F74ECC006CE431 /* Info.plist */,
+				B9A02ABC29EFB47600308168 /* GoogleService-Info.plist */,
+			);
+			path = IslamicTimeManagement;
+			sourceTree = "<group>";
+		};
+		18A6F36025F74ECC006CE431 /* IslamicTimeManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F36125F74ECC006CE431 /* IslamicTimeManagementTests.swift */,
+				18A6F36325F74ECC006CE431 /* Info.plist */,
+			);
+			path = IslamicTimeManagementTests;
+			sourceTree = "<group>";
+		};
+		18A6F36B25F74ECC006CE431 /* IslamicTimeManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F36C25F74ECC006CE431 /* IslamicTimeManagementUITests.swift */,
+				18A6F36E25F74ECC006CE431 /* Info.plist */,
+			);
+			path = IslamicTimeManagementUITests;
+			sourceTree = "<group>";
+		};
+		18A6F38325F74F6F006CE431 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1874BCB12609C43E00F95990 /* 1.png */,
+				1874BCB22609C43E00F95990 /* 2.png */,
+				1874BCB02609C43E00F95990 /* 3.png */,
+				1874BC9A2609C37B00F95990 /* BarChart */,
+				18594AF12605EB3E00A6EAEB /* Chart */,
+				18A6F3CA25F75323006CE431 /* Utils.swift */,
+				18A5B50F25FF11AD004C3B56 /* CheckInternet.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		18A6F38425F74F75006CE431 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F38825F74F87006CE431 /* MenuControllerVC.swift */,
+				18A6F38A25F74F87006CE431 /* MenuControllerVCTableCell.swift */,
+				18A6F38625F74F87006CE431 /* SidebarMenu-Bridging-Header.h */,
+				18A6F38925F74F87006CE431 /* SWRevealViewController.h */,
+				18A6F38725F74F87006CE431 /* SWRevealViewController.m */,
+				18A6F38525F74F86006CE431 /* IslamicTimeManagement-Bridging-Header.h */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		18A6F3B425F75199006CE431 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F3C125F752AE006CE431 /* GetStartedNow */,
+				18A6F3B825F751A3006CE431 /* Login */,
+				18A6F3D225F756A5006CE431 /* Registration */,
+				18A6F3DB25F757BF006CE431 /* Dashboard */,
+				18A6F3EF25F76107006CE431 /* YourGoals */,
+				18A6F43425F767F4006CE431 /* Calendar */,
+				18392F3225F78B58006E69B8 /* EvaluateYourself */,
+				18392F4325F7A669006E69B8 /* EvaluateSuccess */,
+				1874BCBC2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC */,
+				18A5B45525FE5ECE004C3B56 /* HelpVC */,
+				18A5B50925FF0E18004C3B56 /* ChangePasswordController */,
+				18A5B47825FE6876004C3B56 /* ForgotPasswordController */,
+				18A5B76825FFC4CF004C3B56 /* PaymentsViewController */,
+				18392F4F25F7AA68006E69B8 /* SelectQuizLevel */,
+				18A6F8C52601F13E00D27590 /* QuizResultVC */,
+				184923B9260268900028A7CF /* Quiz's */,
+				187DFA7326012152009A9FA1 /* LibraryVC */,
+				1811BB64262077C200F68530 /* LibraryDetailPageVC */,
+				1811BB6C26207DA000F68530 /* PDFReaderVC */,
+				187DFA6A26010CCC009A9FA1 /* Profile */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18A6F3B825F751A3006CE431 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F3BC25F751C0006CE431 /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18A6F3C125F752AE006CE431 /* GetStartedNow */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F3C225F752BC006CE431 /* GetStartedNow.swift */,
+			);
+			path = GetStartedNow;
+			sourceTree = "<group>";
+		};
+		18A6F3D225F756A5006CE431 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F3D325F756B2006CE431 /* Register.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		18A6F3DB25F757BF006CE431 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F3EA25F758AE006CE431 /* Dashboard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		18A6F3EF25F76107006CE431 /* YourGoals */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F3F025F76118006CE431 /* SetYourGoalsList.swift */,
+			);
+			path = YourGoals;
+			sourceTree = "<group>";
+		};
+		18A6F43425F767F4006CE431 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				18594C4B26060B8000A6EAEB /* AddGoalVC.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		18A6F8C52601F13E00D27590 /* QuizResultVC */ = {
+			isa = PBXGroup;
+			children = (
+				18A6F8C62601F13E00D27590 /* QuizResultVC.swift */,
+			);
+			path = QuizResultVC;
+			sourceTree = "<group>";
+		};
+		7A87946A471AE53E1408FC3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2FC0CC01BEEE30882FC62F0 /* Pods-IslamicTimeManagement.debug.xcconfig */,
+				C747A3A5839BCB5361188DF2 /* Pods-IslamicTimeManagement.release.xcconfig */,
+				4D24405D87497230D31A847C /* Pods-IslamicTimeManagement-IslamicTimeManagementUITests.debug.xcconfig */,
+				5C91DA5943CE834BBAA20F0F /* Pods-IslamicTimeManagement-IslamicTimeManagementUITests.release.xcconfig */,
+				837F595AF98E39221B6C3CD9 /* Pods-IslamicTimeManagementTests.debug.xcconfig */,
+				10C547469AADC0A5E7EC3EED /* Pods-IslamicTimeManagementTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7EE9C5E374CE4187322242C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18852E3A26380A660045373B /* StoreKit.framework */,
+				0772D2543EB23908163F6715 /* Pods_IslamicTimeManagement.framework */,
+				8C3C05D74E099994DFFD2A3D /* Pods_IslamicTimeManagement_IslamicTimeManagementUITests.framework */,
+				9A16F0F7AA485D58788D4075 /* Pods_IslamicTimeManagementTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A6F34625F74EC9006CE431 /* IslamicTimeManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A6F37125F74ECC006CE431 /* Build configuration list for PBXNativeTarget "IslamicTimeManagement" */;
+			buildPhases = (
+				6AB9BF75FF8197D80250021D /* [CP] Check Pods Manifest.lock */,
+				18A6F34325F74EC9006CE431 /* Sources */,
+				18A6F34425F74EC9006CE431 /* Frameworks */,
+				18A6F34525F74EC9006CE431 /* Resources */,
+				11C14AFDF2213670D260282D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslamicTimeManagement;
+			productName = IslamicTimeManagement;
+			productReference = 18A6F34725F74EC9006CE431 /* IslamicTimeManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A6F35C25F74ECC006CE431 /* IslamicTimeManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A6F37425F74ECC006CE431 /* Build configuration list for PBXNativeTarget "IslamicTimeManagementTests" */;
+			buildPhases = (
+				2611A395FC6DFB0CA3605843 /* [CP] Check Pods Manifest.lock */,
+				18A6F35925F74ECC006CE431 /* Sources */,
+				18A6F35A25F74ECC006CE431 /* Frameworks */,
+				18A6F35B25F74ECC006CE431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A6F35F25F74ECC006CE431 /* PBXTargetDependency */,
+			);
+			name = IslamicTimeManagementTests;
+			productName = IslamicTimeManagementTests;
+			productReference = 18A6F35D25F74ECC006CE431 /* IslamicTimeManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A6F36725F74ECC006CE431 /* IslamicTimeManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A6F37725F74ECC006CE431 /* Build configuration list for PBXNativeTarget "IslamicTimeManagementUITests" */;
+			buildPhases = (
+				3AE8416848E6D2BF41BF02A2 /* [CP] Check Pods Manifest.lock */,
+				18A6F36425F74ECC006CE431 /* Sources */,
+				18A6F36525F74ECC006CE431 /* Frameworks */,
+				18A6F36625F74ECC006CE431 /* Resources */,
+				0F8586D5CD359F35E9AC0FAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A6F36A25F74ECC006CE431 /* PBXTargetDependency */,
+			);
+			name = IslamicTimeManagementUITests;
+			productName = IslamicTimeManagementUITests;
+			productReference = 18A6F36825F74ECC006CE431 /* IslamicTimeManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A6F33F25F74EC9006CE431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18A6F34625F74EC9006CE431 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					18A6F35C25F74ECC006CE431 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18A6F34625F74EC9006CE431;
+					};
+					18A6F36725F74ECC006CE431 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18A6F34625F74EC9006CE431;
+					};
+				};
+			};
+			buildConfigurationList = 18A6F34225F74EC9006CE431 /* Build configuration list for PBXProject "IslamicTimeManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A6F33E25F74EC9006CE431;
+			packageReferences = (
+				B96330A029E4054900E634C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 18A6F34825F74EC9006CE431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A6F34625F74EC9006CE431 /* IslamicTimeManagement */,
+				18A6F35C25F74ECC006CE431 /* IslamicTimeManagementTests */,
+				18A6F36725F74ECC006CE431 /* IslamicTimeManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A6F34525F74EC9006CE431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A02ABD29EFB47600308168 /* GoogleService-Info.plist in Resources */,
+				182754F6260A379E001225EF /* 1212.png in Resources */,
+				1874BCB52609C43F00F95990 /* 2.png in Resources */,
+				1857B4D4262EB67F00FC546D /* user12.png in Resources */,
+				18A6F35725F74ECC006CE431 /* LaunchScreen.storyboard in Resources */,
+				1857B4A9262EB38500FC546D /* backF.png in Resources */,
+				18A6F35425F74ECC006CE431 /* Assets.xcassets in Resources */,
+				18504BDC2632B81900E9319A /* leftx.png in Resources */,
+				18504BDD2632B81900E9319A /* rightx.png in Resources */,
+				18A6F35225F74EC9006CE431 /* Main.storyboard in Resources */,
+				1857B5B72631C22E00FC546D /* calendar.png in Resources */,
+				1874BCB32609C43F00F95990 /* 3.png in Resources */,
+				1874BCB42609C43F00F95990 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6F35B25F74ECC006CE431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6F36625F74ECC006CE431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F8586D5CD359F35E9AC0FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IslamicTimeManagement-IslamicTimeManagementUITests/Pods-IslamicTimeManagement-IslamicTimeManagementUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IslamicTimeManagement-IslamicTimeManagementUITests/Pods-IslamicTimeManagement-IslamicTimeManagementUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IslamicTimeManagement-IslamicTimeManagementUITests/Pods-IslamicTimeManagement-IslamicTimeManagementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11C14AFDF2213670D260282D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IslamicTimeManagement/Pods-IslamicTimeManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IslamicTimeManagement/Pods-IslamicTimeManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IslamicTimeManagement/Pods-IslamicTimeManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2611A395FC6DFB0CA3605843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IslamicTimeManagementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE8416848E6D2BF41BF02A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IslamicTimeManagement-IslamicTimeManagementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB9BF75FF8197D80250021D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IslamicTimeManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A6F34325F74EC9006CE431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18594AF72605EB3F00A6EAEB /* LambdaPieChart.swift in Sources */,
+				18392F3A25F78B7B006E69B8 /* EvaluateYourself.swift in Sources */,
+				1874BCAC2609C37B00F95990 /* DataEntry.swift in Sources */,
+				18A6F3BD25F751C0006CE431 /* Login.swift in Sources */,
+				187DFA6C26010CCC009A9FA1 /* Profile.swift in Sources */,
+				18A5B47A25FE6877004C3B56 /* ForgotPasswordController.swift in Sources */,
+				1874BCA92609C37B00F95990 /* CALayerExtension.swift in Sources */,
+				18392F3F25F78BCB006E69B8 /* EvaluateYourselfTableCell.swift in Sources */,
+				1894AFDE26328952004ED2D1 /* ESLotteryWinViewControllerRetailer.swift in Sources */,
+				18392F5C25F7AA9B006E69B8 /* SelectQuizTableCell.swift in Sources */,
+				18A5B50B25FF0E19004C3B56 /* ChangePasswordController.swift in Sources */,
+				1811BB66262077C200F68530 /* LibraryDetailPageVC.swift in Sources */,
+				18594AF52605EB3F00A6EAEB /* UIColor+Extension.swift in Sources */,
+				18CC93BF262EBE380054DF26 /* TermsConditionVC.swift in Sources */,
+				18A6F3C325F752BC006CE431 /* GetStartedNow.swift in Sources */,
+				18392F4525F7A679006E69B8 /* EvaluateSuccess.swift in Sources */,
+				18A6F3EB25F758AE006CE431 /* Dashboard.swift in Sources */,
+				1874BCA82609C37B00F95990 /* CustomSegments.swift in Sources */,
+				18A6F3CB25F75323006CE431 /* Utils.swift in Sources */,
+				1874BCAA2609C37B00F95990 /* UIBezierPathExtension.swift in Sources */,
+				1874BCA72609C37B00F95990 /* BasicBarEntry.swift in Sources */,
+				18A6F34F25F74EC9006CE431 /* ViewController.swift in Sources */,
+				18594C4C26060B8100A6EAEB /* AddGoalVC.swift in Sources */,
+				18594AF62605EB3F00A6EAEB /* PieChartDataSet.swift in Sources */,
+				18A5B51025FF11AD004C3B56 /* CheckInternet.swift in Sources */,
+				18A6F3D425F756B2006CE431 /* Register.swift in Sources */,
+				18392F5125F7AA7A006E69B8 /* SelectQuizLevel.swift in Sources */,
+				1874BCA52609C37B00F95990 /* BasicBarChartPresenter.swift in Sources */,
+				18A6F3F125F76118006CE431 /* SetYourGoalsList.swift in Sources */,
+				18A6F34B25F74EC9006CE431 /* AppDelegate.swift in Sources */,
+				18A5B45725FE5ECE004C3B56 /* HelpVC.swift in Sources */,
+				1874BCA62609C37B00F95990 /* BasicBarChart.swift in Sources */,
+				18A6F38D25F74F87006CE431 /* MenuControllerVCTableCell.swift in Sources */,
+				1874BCBE2609CFA400F95990 /* EvaluateSuccessMonthlyWiseVC.swift in Sources */,
+				184923BD260268900028A7CF /* QuizQuestionAnswerVerticallyVC.swift in Sources */,
+				1874BCAB2609C37B00F95990 /* ArrayExtension.swift in Sources */,
+				18A5B76A25FFC4CF004C3B56 /* PaymentsViewController.swift in Sources */,
+				18A6F8C72601F13E00D27590 /* QuizResultVC.swift in Sources */,
+				18A6F34D25F74EC9006CE431 /* SceneDelegate.swift in Sources */,
+				18A6F38B25F74F87006CE431 /* SWRevealViewController.m in Sources */,
+				18A6F38C25F74F87006CE431 /* MenuControllerVC.swift in Sources */,
+				187DFA7526012153009A9FA1 /* LibraryVC.swift in Sources */,
+				1811BB6E26207DA000F68530 /* PDFReaderVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6F35925F74ECC006CE431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A6F36225F74ECC006CE431 /* IslamicTimeManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6F36425F74ECC006CE431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A6F36D25F74ECC006CE431 /* IslamicTimeManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A6F35F25F74ECC006CE431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A6F34625F74EC9006CE431 /* IslamicTimeManagement */;
+			targetProxy = 18A6F35E25F74ECC006CE431 /* PBXContainerItemProxy */;
+		};
+		18A6F36A25F74ECC006CE431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A6F34625F74EC9006CE431 /* IslamicTimeManagement */;
+			targetProxy = 18A6F36925F74ECC006CE431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A6F35025F74EC9006CE431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A6F35125F74EC9006CE431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A6F35525F74ECC006CE431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A6F35625F74ECC006CE431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A6F36F25F74ECC006CE431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A6F37025F74ECC006CE431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A6F37225F74ECC006CE431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FC0CC01BEEE30882FC62F0 /* Pods-IslamicTimeManagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IslamicTimeManagement/IslamicTimeManagement.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 9VAXHVJ8GQ;
+				INFOPLIST_FILE = IslamicTimeManagement/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Islamic Time Management";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.Islamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "IslamicTimeManagement/ThirdParty/IslamicTimeManagement-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18A6F37325F74ECC006CE431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C747A3A5839BCB5361188DF2 /* Pods-IslamicTimeManagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IslamicTimeManagement/IslamicTimeManagement.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 9VAXHVJ8GQ;
+				INFOPLIST_FILE = IslamicTimeManagement/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Islamic Time Management";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.Islamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "IslamicTimeManagement/ThirdParty/IslamicTimeManagement-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18A6F37525F74ECC006CE431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837F595AF98E39221B6C3CD9 /* Pods-IslamicTimeManagementTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				INFOPLIST_FILE = IslamicTimeManagementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.islamictime.IslamicTimeManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslamicTimeManagement.app/IslamicTimeManagement";
+			};
+			name = Debug;
+		};
+		18A6F37625F74ECC006CE431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C547469AADC0A5E7EC3EED /* Pods-IslamicTimeManagementTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				INFOPLIST_FILE = IslamicTimeManagementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.islamictime.IslamicTimeManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslamicTimeManagement.app/IslamicTimeManagement";
+			};
+			name = Release;
+		};
+		18A6F37825F74ECC006CE431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D24405D87497230D31A847C /* Pods-IslamicTimeManagement-IslamicTimeManagementUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				INFOPLIST_FILE = IslamicTimeManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.islamictime.IslamicTimeManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IslamicTimeManagement;
+			};
+			name = Debug;
+		};
+		18A6F37925F74ECC006CE431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C91DA5943CE834BBAA20F0F /* Pods-IslamicTimeManagement-IslamicTimeManagementUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				INFOPLIST_FILE = IslamicTimeManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.islamictime.IslamicTimeManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IslamicTimeManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A6F34225F74EC9006CE431 /* Build configuration list for PBXProject "IslamicTimeManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A6F36F25F74ECC006CE431 /* Debug */,
+				18A6F37025F74ECC006CE431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A6F37125F74ECC006CE431 /* Build configuration list for PBXNativeTarget "IslamicTimeManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A6F37225F74ECC006CE431 /* Debug */,
+				18A6F37325F74ECC006CE431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A6F37425F74ECC006CE431 /* Build configuration list for PBXNativeTarget "IslamicTimeManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A6F37525F74ECC006CE431 /* Debug */,
+				18A6F37625F74ECC006CE431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A6F37725F74ECC006CE431 /* Build configuration list for PBXNativeTarget "IslamicTimeManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A6F37825F74ECC006CE431 /* Debug */,
+				18A6F37925F74ECC006CE431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B96330A029E4054900E634C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 18A6F33F25F74EC9006CE431 /* Project object */;
+}
